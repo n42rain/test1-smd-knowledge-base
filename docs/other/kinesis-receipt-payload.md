@@ -10,19 +10,19 @@ sidebar_label: Kinesis Receipt Payload
 
 ***
 
-* [Item Types](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#item-types)
-* [Receipt Types](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#receipt-types)
-* [Drawer Session vs Day Operation vs Attendant Tagging](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#drawer-session-vs-day-operation-vs-attendant-tagging)
-* [Payment Allocation in Line Item Attribute](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#payment-allocation-in-line-item-attribute)
-* [Cancelled Item](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#cancelled-item)
-* [Difference Between Receipt Number and Sequence Number](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#difference-between-receipt-number-and-sequence-number)
-* [Terminal Type and Terminal Id](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#terminal-type-and-terminal-id)
-* [Difference Between Payments and Payment Allocation](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#difference-between-payments-and-payment-allocation)
-* [Tags and Categories](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#tags-and-categories)
-* [Amount Attributes](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#amount-attributes)
-* [Discounts](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#discounts)
-* [Loyalty](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#loyalty)
-* [Price and Price Override](https://gitlab.teratotech.com/ronpos/technical-documentation/-/blob/main/knowledge-base/kinesis-receipt-payload.md?ref_type=heads#price-and-price-override)
+* [Item Types](#item-types)
+* [Receipt Types](#receipt-types)
+* [Drawer Session vs Day Operation vs Attendant Tagging](#drawer-session-vs-day-operation-vs-attendant-tagging)
+* [Payment Allocation in Line Item Attribute](#payment-allocation-in-line-item-attribute)
+* [Cancelled Item](#cancelled-item)
+* [Difference Between Receipt Number and Sequence Number](#difference-between-receipt-number-and-sequence-number)
+* [Terminal Type and Terminal Id](#terminal-type-and-terminal-id)
+* [Difference Between Payments and Payment Allocation](#difference-between-payments-and-payment-allocation)
+* [Tags and Categories](#tags-and-categories)
+* [Amount Attributes](#amount-attributes)
+* [Discounts](#discounts)
+* [Loyalty](#loyalty)
+* [Price and Price Override](#price-and-price-override)
 
 ## Item Types
 
