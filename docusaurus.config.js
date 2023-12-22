@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Technical Documentation',
   tagline: 'Knowledge Base',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/smd-logo3.jpeg',
 
   // Set the production url of your site here
   url: 'https://n42rain.github.io',
