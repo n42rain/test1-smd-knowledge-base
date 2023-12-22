@@ -8,20 +8,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Naz',
-  tagline: 'You are gonna fly to Aussie very soon!',
+  title: 'Technical Documentation',
+  tagline: 'Knowledge Base',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://n42rain.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/test1-smd-knowledge-base/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'n42rain', // Usually your GitHub org/user name.
+  projectName: 'test1-smd-knowledge-base', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -63,14 +63,20 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      //algolia:{
+      //  appId:'L3AL00FNMF',
+      //  apiKey: '',
+      //  indexName: 'smd-knowledge-1',
+      //  contextualSearch: true,
+     // },
       // Replace with your project's social card
       // Mintak logo silentmode from Syamil
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Silentmode',
+        title: 'silentmode',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/smd-logo3.jpeg',
         },
         items: [
           {
@@ -109,46 +115,70 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Guidelines & Process',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Support Ticket Process',
+                to: 'docs/guidelines-process/Process-Support-Ticket',
+              },
+              {
+                label: 'Sprint Planning',
+                to: 'docs/guidelines-process/Sprint Planning Process',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Support issues',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'EOD Not Tally',
+                to: '/docs/support-issues/Support-issue-1',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'FMR Not Tally',
+                to: '/docs/support-issues/Support-issue-2',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Product Not Reflect',
+                to: '/docs/support-issues/Support-issue-3',
+              },
+              {
+                label: 'On Account Statement Not Tally',
+                to: '/docs/support-issues/Support-issue-4',
+              },
+              {
+                label: 'Pump Test Not Recorded',
+                to: '/docs/support-issues/Support-issue-5',
+              },
+              {
+                label: 'Till Not Close',
+                to: '/docs/support-issues/Support-issue-6',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Other',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Rebase Conflict Locally',
+                to: 'docs/other/other-1',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Run Wetstock Migration',
+                to: 'docs/other/other-2',
+              },
+              {
+                label: 'Update Tank Config',
+                to: 'docs/other/other-3',
+              },
+              {
+                label: 'Kinesis Receipt Payload',
+                to: 'docs/other/other-4',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Knowledge Base Documentation. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

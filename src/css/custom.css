@@ -6,25 +6,75 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #177510;
+  --ifm-color-primary-dark: #15690e;
+  --ifm-color-primary-darker: #14630e;
+  --ifm-color-primary-darkest: #10520b;
+  --ifm-color-primary-light: #198112;
+  --ifm-color-primary-lighter: #1a8712;
+  --ifm-color-primary-lightest: #1e9815;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #28c91d;
+  --ifm-color-primary-dark: #24b51a;
+  --ifm-color-primary-darker: #22ab19;
+  --ifm-color-primary-darkest: #1c8d14;
+  --ifm-color-primary-light: #2cdd20;
+  --ifm-color-primary-lighter: #34e028;
+  --ifm-color-primary-lightest: #51e447;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__logo{
+  width: 40px;
+  height: auto;
+}
+
+.navbar__title{
+  font-size: 1.1em;
+  position: relative;
+  left: 0.05em;
+  bottom: 0.1em;
+  font-weight: 600;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: black;
+  --ifm-footer-color: var(--ifm-footer-link-color);
+  --ifm-footer-link-color: var(--ifm-color-secondary);
+  --ifm-footer-title-color: var(--ifm-color-white);
+}
+
+.footer__items .footer__item a:hover{
+  color: #2cdd20;
+  text-decoration: var(--ifm-link-decoration);
+  transition: color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.container-fluid {
+  margin: 0 auto;
+  max-width: var(--ifm-container-width);
+  padding: 0 var(--ifm-spacing-horizontal);
+  width: 100%;
+  position: relative;
+  left: 5%;
+}
+
+.footer__copyright{
+  position: relative;
+  right: 7%;
+}
+
+.text--center p{
+  position: relative;
+  top: 1.5em;
+}
+
+.container{
+  position: relative;
+  right: 0.1em;
 }

@@ -4,47 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'My Website',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    second: (
-      <>
-        MINA
-      </>
-    ),
+    title: 'Description',
+    Svg: require('@site/static/img/undraw_documentation.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly. TEST
+        A place to store technical documentation for Silentmode Engineering team.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    second: (
-      <>
-        SANA
-      </>
-    ),
+    title: 'Empowering Enterprises',
+    Svg: require('@site/static/img/undraw_business.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Futureproofing businesses, enabling innovations
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    second: (
-      <>
-        MOMO
-      </>
-    ),
+    title: 'Holistic Products & Services',
+    Svg: require('@site/static/img/undraw_engineering.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       Builders of tech innovations for retailers to streamline business operations
       </>
     ),
   },
@@ -59,8 +41,6 @@ function Feature({Svg, title, description,second}) {
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
-        <p>{second}</p>
-        <p>LOL..PAHAM DO</p>
       </div>
     </div>
   );
