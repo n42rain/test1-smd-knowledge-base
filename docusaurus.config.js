@@ -63,12 +63,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      //algolia:{
-      //  appId:'L3AL00FNMF',
-      //  apiKey: '',
-      //  indexName: 'smd-knowledge-1',
-      //  contextualSearch: true,
-     // },
+      algolia:{
+        appId:'L3AL00FNMF',
+        apiKey: 'd9781be8e3fc491f1c9151ff660c2fb3',
+        indexName: 'smd-knowledge-1',
+        contextualSearch: true,
+      },
       // Replace with your project's social card
       // Mintak logo silentmode from Syamil
       image: 'img/docusaurus-social-card.jpg',
