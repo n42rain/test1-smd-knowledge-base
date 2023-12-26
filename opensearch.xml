@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Technical Documentation</ShortName>
+  <Description>Search Technical Documentation</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://n42rain.github.io/test1-smd-knowledge-base/img/smd-logo3.jpeg</Image>
+  <Url type="text/html" method="get" template="https://n42rain.github.io/test1-smd-knowledge-base/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://n42rain.github.io/test1-smd-knowledge-base/opensearch.xml" />
+  <moz:SearchForm>https://n42rain.github.io/test1-smd-knowledge-base/</moz:SearchForm>
+</OpenSearchDescription>
