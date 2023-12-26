@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmd_knowledge_base=self.webpackChunksmd_knowledge_base||[]).push([[2367],{9824:e=>{e.exports=JSON.parse('{"permalink":"/test1-smd-knowledge-base/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
