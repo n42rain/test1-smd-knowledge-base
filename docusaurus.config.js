@@ -147,6 +147,10 @@ const config = {
                 to: '/docs/support-issues/Support-issue-4',
               },
               {
+                label: 'Profit Report Not Tally',
+                to: '/docs/support-issues/Support-issue-7',
+              },
+              {
                 label: 'Pump Test Not Recorded',
                 to: '/docs/support-issues/Support-issue-5',
               },
